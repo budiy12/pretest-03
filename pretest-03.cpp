@@ -1,8 +1,8 @@
 /**
- * Nama     :
- * NPM      :
- * Kelas    :
- * Tanggal  :
+ * Nama     : Asep Budiyana M
+ * NPM      : 140810180029
+ * Kelas    : A
+ * Tanggal  : 12/03/2019
  **/
 
 #include <iostream>
@@ -37,8 +37,9 @@ void cetakMhs(larikMhs mhs,int n){
 void sortNPM(larikMhs& mhs,int n){
     for (int i=0;i<n;i++){
         for (int j=0;j<n;j++){
-            if (mhs[j].npm>mhs[j+1].npm)
-            swap(mhs[j],mhs[j+1]);
+            if (mhs[j].npm>mhs[j+1].npm){
+                    swap(mhs[j],mhs[j+1]);
+            }
         }
     }
 }
